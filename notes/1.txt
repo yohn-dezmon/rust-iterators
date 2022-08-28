@@ -1,0 +1,19 @@
+Iterators can be used to iterate over different data types.
+i.e. an Array, a Map, custom data structure etc.
+
+All iterators in rust implement the Iterator trait {like a interface in Java}. 
+When defining an Iterator, you have to specify the type, and that type will be 
+returned from the next() method.
+
+
+what is Some(&1)?
+- this is one of the variants of the Option Enum that can be returned
+pub enum Option<T> {
+    None,
+    Some(T),
+}
+- 
+
+You can run tests with `cargo test`
+
+stopped here: https://youtu.be/4GcKrj4By8k?t=254
