@@ -28,9 +28,6 @@ fn main() {
     .zip(4..7)
     .for_each(|(v1_num, zip_num)| println!("v1_num: {}, zip_num: {}", v1_num, zip_num));
 
-
-
-
 }
 
 #[test]
